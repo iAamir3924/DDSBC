@@ -1,7 +1,9 @@
-# DDSBC
-# Drug-Pair Cell Synergy Prediction Workflow
-## Abstract
-Breast cancer (BC) ranks as a leading cause of mortality among women globally, with increasing incidence rates. The quest for effective treatments has led to the adoption of drug combination therapy, aiming to enhance drug efficacy. However, identifying synergistic drug combinations remains a daunting challenge due to the myriad of potential drug pairs. Current research leverages machine learning (ML) and deep learning (DL) models like DeepSynergy, KGANSynergy, CancerGPT, SYNPRED, CCSynergy, and several others for drug-pair synergy classification. Nevertheless, these models often underperform on specific cancer types, including BC, as they are trained on data spanning various cancers without specialization.
-Here, we introduce a stacking ensemble classifier, the drug-drug synergy for breast cancer (DDSBC), tailored explicitly for BC drug-pair synergy classification. Unlike existing models that generalize across cancer types, DDSBC is exclusively developed for BC, offering a more focused approach. Our comparative analysis against classical machine learning methods—Random Forests (RF), AdaBoost, Gradient Boosting, Support Vector Machine (SVM), Multilayer Perceptron (MLP), and Extreme-Gradient Boosting (XGB)—highlights DDSBC's superior performance across test and independent datasets. Despite certain metrics where other methods narrowly surpass DDSBC by 1-2%, DDSBC consistently emerges as the top-ranked model, showcasing significant differences in scoring metrics and robust performance in ablation studies. DDSBC's specialization positions it as a preferred choice or a secondary validation tool for identifying BC synergistic or antagonistic drug pairs, contributing valuable insights to BC treatment strategies.
-https://github.com/iAamir3924/DDSBC/blob/main/DDSBC_workflow.jpg
+# DDSBC Data Accessibility
+Thank you for your interest in the DDSBC tool. We have decided to remove the code from our GitHub repository to better manage its distribution and ensure proper use. This decision was made to maintain the integrity and security of the tool, as well as to comply with licensing agreements and potential future developments.
+To access the code, please send a request to iaamirofficial@outlook.com. In your email, kindly explain why you need the code and how you learned about our work. Additionally, please attach your CV, including a list of publications and a cover letter. If you are a graduate student or postdoc, please CC your Principal Investigator (PI) in the email.
+Furthermore, please fill out and sign the attached License Agreement Form and include it with your email. This agreement ensures that the code is used responsibly and legally, allowing us to take appropriate action if the code is distributed without our consent.
+Thank you once again for your interest in DDSBC.
+
+
+
 
